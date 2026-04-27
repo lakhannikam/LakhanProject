@@ -8,7 +8,7 @@ while True:
     os.system("rpicam-still -o temp.jpg")
 
     img = cv2.imread("temp.jpg")
-    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)  
 
     lower_green = (35, 50, 50)
     upper_green = (85, 255, 255)
