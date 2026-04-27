@@ -19,7 +19,7 @@ while True:
     total = img.size / 3
     percent = (green / total) * 100
 
-    print("Green %:", percent)
+    print("green %:", percent)
 
     if percent > 30:
         print("Leaf detected! Capturing final image...")
